@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Om Gavhane's <span>Portfolio</span></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="home" class="home">
+        <h1>Hello, I'm <span>Om Gavhane</span></h1>
+        <p>A passionate Web Developer creating modern and responsive websites.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Hotel Paradise Website</h3>
+                <p>Responsive hotel booking website using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3>Snake Game</h3>
+                <p>Classic snake game with smooth animations and score tracking.</p>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio showcasing skills and projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <span>OmGavhane@webdeveloper.com</span></p>
+        <p>LinkedIn: <span>linkedin.com/in/omgavhane</span></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Om Gavhane | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
